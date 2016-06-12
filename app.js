@@ -35,6 +35,4 @@ app.get('/:inputDate?', function(req,res){
 })
 
 var port = Number(process.env.Port || 3000);
-app.listen(port,function(){
-	console.log('app run port 3000');
-});
+app.listen(port);
