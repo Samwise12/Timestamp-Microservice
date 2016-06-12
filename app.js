@@ -14,6 +14,11 @@ app.get('/', function(req,res){
 	res.sendFile(path.join(__dirname+'/index.html'));
 });
 
+// Favicon issue?
+app.get('/favicon.ico', function(res, res) {
+    res.end();
+});
+
 app.get('/:inputDate?', function(req,res){
 	var inputDate = req.params.inputDate;
 	inputDate = /^\d+$/.test(inputDate) ? parseInt(inputDate)*1000 : inputDate;
@@ -28,11 +33,12 @@ app.get('/:inputDate?', function(req,res){
 	if(!isNaN(date)){
 		format.unix = Math.floor(date.getTime()/1000);
 		format.natural = getMonth(monthName) +' '+ dayNumber +', '+ yearNumber;}
-	//var month = date.getMonth();
-	//res.sendStatus(getMonth(month));
+	
 	res.json(format);	
-	//res.json(getMonth(month));	
+	
 })
 
 var port = Number(process.env.Port || 3000);
-app.listen(port);
+app.listen(port, function(){
+	console.log('app running');
+});
