@@ -14,11 +14,6 @@ app.get('/', function(req,res){
 	res.sendFile(path.join(__dirname+'/index.html'));
 });
 
-// Favicon issue?
-app.get('/favicon.ico', function(res, res) {
-    res.end();
-});
-
 app.get('/:inputDate?', function(req,res){
 	var inputDate = req.params.inputDate;
 	inputDate = /^\d+$/.test(inputDate) ? parseInt(inputDate)*1000 : inputDate;
