@@ -34,6 +34,7 @@ app.get('/:inputDate?', function(req,res){
 	//res.json(getMonth(month));	
 })
 
-app.listen(3000,function(){
+var port = Number(process.env.Port || 3000);
+app.listen(port,function(){
 	console.log('app run port 3000');
 });
