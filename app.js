@@ -12,6 +12,7 @@ return monthNames[month];
 //Home
 app.get('/', function(req,res){
 	res.sendFile(path.join(__dirname+'/index.html'));
+	//console.log(path.join(__dirname+'/index.html'));
 });
 
 app.get('/:inputDate?', function(req,res){
