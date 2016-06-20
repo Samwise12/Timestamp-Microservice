@@ -1,0 +1,287 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"date",
+				"date"
+			],
+			[
+				"s",
+				"sockets"
+			],
+			[
+				"geti",
+				"getInformation"
+			],
+			[
+				"origin",
+				"origin"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"url",
+				"urlValue"
+			],
+			[
+				"write",
+				"writeHead"
+			],
+			[
+				"body",
+				"bodyParser"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/S/Desktop/timestamp2/public/cssFile.css",
+		"/C/Users/S/Desktop/timestamp2/public/index.html",
+		"/C/Users/S/Desktop/timestamp2/app.js",
+		"/C/Users/S/Desktop/test1/server.js",
+		"/C/Users/S/Desktop/timestamp/app.js",
+		"/C/Users/S/Desktop/fcctimestamp/app.js",
+		"/C/Users/S/Desktop/practice/web.js",
+		"/C/Users/S/Desktop/static/app.js",
+		"/C/Users/S/Desktop/fcctimestamp/index.html",
+		"/C/Users/S/Desktop/starwars/app.js",
+		"/C/Users/S/Desktop/static/Procfile",
+		"/C/Users/S/Desktop/static/public/index.html",
+		"/C/Users/S/Desktop/timestamp2/index.html",
+		"/C/Users/S/Desktop/timestamp2/Procfile",
+		"/C/Users/S/Desktop/mvc/app.js",
+		"/C/Users/S/nodetut/files/index.html",
+		"/C/Users/S/nodetut/script14.js",
+		"/C/Users/S/nodetut/files/404.html",
+		"/C/Users/S/nodetut/files/file2.html",
+		"/C/Users/S/nodetut/assets/myStyles.css",
+		"/C/Users/S/nodetut/script3.js",
+		"/C/Users/S/nodetut/methods.js",
+		"/C/Users/S/nodetut/script4.js",
+		"/C/Users/S/Desktop/mvc/views/index.ejs",
+		"/C/Users/S/Desktop/demo3/public/index.html",
+		"/C/Users/S/Desktop/demo3/app.js",
+		"/C/Users/S/Desktop/demo3/Procfile",
+		"/C/Users/S/Desktop/fcctimestamp/Procfile",
+		"/C/Users/S/Desktop/demo3/index.html",
+		"/C/Users/S/Desktop/fcctimestamp/package.json",
+		"/C/Users/S/Desktop/test1/package.json",
+		"/C/Users/S/Desktop/test1/Procfile",
+		"/C/Users/S/Desktop/node-js-getting-started/views/pages/index.ejs",
+		"/C/Users/S/Desktop/timestamp/index.html",
+		"/C/Users/S/Desktop/fcctimestamp/Timestamp-Microservice/Procfile",
+		"/C/Users/S/Desktop/starwars/views/partials/head.ejs",
+		"/C/Users/S/Desktop/starwars/views/home.ejs",
+		"/C/Users/S/Desktop/starwars/movies.json",
+		"/C/Users/S/Desktop/starwars/routes/index.js",
+		"/C/Users/S/Desktop/starwars/public/stylesheets/styles.css",
+		"/C/Users/S/Desktop/starwars/public/images/death_star_image.jpg",
+		"/C/Users/S/Desktop/starwars/public/routes/index.js",
+		"/C/Users/S/Desktop/starwars/views/partials/scripts.ejs",
+		"/C/Users/S/Desktop/starwars/public/stylesheets",
+		"/C/Users/S/Desktop/starwars/package.json",
+		"/C/Users/S/Desktop/practice2/views/index.ejs",
+		"/C/Users/S/Desktop/practice2/app.js",
+		"/C/Users/S/Desktop/practice/Procfile",
+		"/C/Users/S/Desktop/practice/package.json",
+		"/C/Users/S/Documents/newGitTest/index.html",
+		"/C/Users/S/Documents/newGitTest/README.md",
+		"/C/Users/S/Desktop/Tuna/pudding.txt",
+		"/C/Users/S/Desktop/Tuna/third.txt",
+		"/C/Users/S/Desktop/Tuna/second.txt",
+		"/C/Users/S/Desktop/Tuna/first.txt",
+		"/C/Users/S/deploy_node/Procfile",
+		"/C/Users/S/deploy_node/deploy.js",
+		"/C/Users/S/static/public/index.html",
+		"/C/Users/S/static/Procfile",
+		"/C/Users/S/static/app.js",
+		"/C/Users/S/node/index.html",
+		"/C/Users/S/node/text.txt",
+		"/C/Users/S/node/destination.txt",
+		"/C/deletefolder/delete.js",
+		"/C/Users/S/node-js-getting-started/index.js",
+		"/C/Users/S/node-js-getting-started/Procfile",
+		"/C/Users/S/.mongorc.js",
+		"/C/Users/S/tester.js",
+		"/C/Users/S/node/helloworld.js",
+		"/C/Users/S/Desktop/express-intro/views/helloworld.js",
+		"/C/Users/S/Desktop/views/helloworld.js",
+		"/C/Users/S/Desktop/example/package.json",
+		"/C/Users/S/node/test.js",
+		"/C/Users/S/node/app.json",
+		"/C/Users/S/Desktop/userStory/public/views/nodetut/app.js",
+		"/C/Users/S/Desktop/userStory/asdf/asd"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<</",
+			"		\n",
+			"		",
+			"	\n",
+			"console",
+			"//console.log(\"Hello world!\");",
+			"	\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "app.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 172.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

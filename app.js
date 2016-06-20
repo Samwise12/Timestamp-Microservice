@@ -2,17 +2,17 @@ var express = require('express');
 var app = express();
 var path = require("path");
 
+app.use(express.static('public'));
+
 function getMonth(month){
 var monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 return monthNames[month];
 };
-
 //Routes
 
 //Home
 app.get('/', function(req,res){
 	res.sendFile(path.join(__dirname+'/index.html'));
-	//console.log(path.join(__dirname+'/index.html'));
 });
 
 app.get('/:inputDate?', function(req,res){
@@ -29,9 +29,7 @@ app.get('/:inputDate?', function(req,res){
 	if(!isNaN(date)){
 		format.unix = Math.floor(date.getTime()/1000);
 		format.natural = getMonth(monthName) +' '+ dayNumber +', '+ yearNumber;}
-	
 	res.json(format);	
-	
 })
 
 var port = Number(process.env.PORT || 5000);
