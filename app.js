@@ -20,7 +20,7 @@ app.get('/:inputDate?', function(req,res){
 	inputDate = /^\d+$/.test(inputDate) ? parseInt(inputDate)*1000 : inputDate;
 	var date = new Date(inputDate);
 	var monthName = date.getMonth();
-	var dayNumber = date.getDay();
+	var dayNumber = date.getDate();
 	var yearNumber = date.getFullYear();
 	var format = {
 		unix: null,
